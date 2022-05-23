@@ -1,0 +1,178 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    color: white;
+    background-color: #c15355;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 70px;
+}
+.heading{
+    float: left;
+    font-size: 25px;
+
+}
+
+.nav{
+    float: right;}
+   a{ color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+.div{
+    white-space: nowrap ;
+line-height: 2px ;
+}
+
+.heading2{
+    color: white;
+    font-size: 40px;
+    padding: 40px 400px;
+
+}
+
+
+.fix{
+    font-size: small;
+    padding: 1px 450px;
+margin:-8px;
+}
+h3{
+    color: red;
+}
+
+
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+}
+
+.clearfix::after {
+  clear: both;
+}
+.containerclearfix { position: sticky;
+ top: -280px;
+
+}
+
+button{
+ color: white;
+ background-color: #c15355;
+ border: none;
+ width: 50px;
+ height: 30px;
+}
+.fname{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    margin: 20px;
+}
+.box1{
+    width: 25%;
+margin: 10px auto;
+
+
+}
+.boxh {
+    font-size: 25px;
+    color: rgb(201, 75, 75);
+margin-bottom: 10px;
+
+}
+.para1 {
+color: grey;
+margin-bottom: 10px;
+}
+.flip{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+#hello{
+    white-space: nowrap;
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(201, 75, 75);
+
+}
+#end1{
+    text-align: center;
+    color: rgb(201, 75, 75);
+}
+ main{
+     margin:100px;
+ }
+ .great{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ #nope{
+     text-align: center;
+    font-size: 30px;
+    color: white;
+ }
+ #heya{
+    text-align: center;
+    color: white;
+ }
+
+.great{
+    background-color: #c15355;
+}
+.boxd{
+    border: 1px solid black;
+}
